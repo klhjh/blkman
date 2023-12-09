@@ -61,7 +61,7 @@
 	  background-color:#ffff;
 	  line-height:5">
     <p class="center">欢迎来到这里</p>
-    <p class="center">推荐你<a style="color:red;text-decoration:none" target="_blank" href="https://github.com/getaurora/download">极光加速器</a>    <a style="color:red;text-decoration:none" target="_blank" href="https://pgdy.co">苹果影院</a></p>
+    <p class="center">推荐你<p1 style="color:red" onclick="jgjsq()">极光加速器</p1> <p1 style="color:red;" onclick="no1()" href="https://pgdy.co/">苹果视频</p1> <p1 style="color:gray;font-size:10px">(单击)</p1></p>
     <p class="center">作者预计在100年后完工</p>
   </div>
   <div style="background-color:#F0F0F0;padding:30px;">
@@ -70,5 +70,29 @@
     </p>
     <p class="bottom"><a target="_blank" href="https://zhidao.baidu.com/question/1183609399939901459.html">我没有ICP</a></p>
   </div>
+  <script>
+    no1=function(){
+    alert('站长发现，该链接违法，停止使用')
+    da=confirm("站长发现，该链接违法，停止使用")
+    if(da==true){
+    da1=prompt("禁止哦");
+     if(da1=="hjh"){
+     window.location.href="https://www.pgdy.co/"
+     }
+     else
+     {
+     alert("go away!")
+     }
+    }
+    else{
+    alert('站长发现，该链接违法，停止使用')
+    }
+    return
+    }
+
+    jgjsq=function(){
+    window.location.href="https://github.com/getaurora/download"
+    }
+    </script>
 </body>
 </html>
