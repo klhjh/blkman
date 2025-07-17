@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>官网</title>
+    <style>  
+      body {
+        margin: 0;
+        background:grey;
+      }
+      .daohang{
+        position: sticky; /* 使导航栏固定 */
+        top: 0; /* 固定在顶部 */
+        display:flex;
+        z-index:1;
+        background:white;
+        margin:3px;
+        box-shadow:rgb(0 0 0 / 20%) 0px 2px 1px -1px,rgb(0 0 0 / 14%) 0px 1px 1px 0px,rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+        align-items:center;
+        justify-content:space-between;
+      }
+      .bt{
+        font-size:15px;
+      }
+      .lj{
+        font-size:10px;
+        margin-left:10px;
+      }
+      a{
+        color:black;
+        cursor:pointer;
+        text-decoration:none;
+      }
+      .lj1{
+        font-size:16px;
+        font-weight:560;
+        border:2px solid red
+      }
+
+      .neirong{
+        display:flex;
+        overflow:auto;
+        background:white;
+        margin:3px;
+        box-shadow:rgb(0 0 0 / 20%) 0px 2px 1px -1px,rgb(0 0 0 / 14%) 0px 1px 1px 0px,rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+        align-items:center;
+        justify-content:flex-start;
+        height:1000px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="daohang">
+      <div style="box-shadow:none;" class="daohang">
+      <img style="margin-right:2px" src="https://kangwenchang.com/logo.png" width="40px" height="40px" alt="ico">
+      <p style="font-size:15px;font-weight:800">HJH的官方网站</p>
+      </div>
+      <div style="box-shadow:none;" class="daohang">
+        <div class="lj lj.hover lj1"><a href="../index.html">开始</a></div>
+        <div class="lj"><a href="./1.html">动态</a></div>
+        <div class="lj"><a href="./2.html">关于</a></div>
+        <div class="lj"><a href="./3。html">超链接橱柜</a></div>
+      </div>
+    </div>
+
+    <div class="neirong">
+  </body>
+</html>
